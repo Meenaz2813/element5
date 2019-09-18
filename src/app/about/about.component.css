@@ -10,11 +10,18 @@
     height: auto !important;
     max-width:100% !important;
   }
-  @media only screen and (max-width:360px){
+
+  .video{
+    display: block;
+  }
+  @media only screen and (max-width:600px){
     .image-responsive{
       width: 40rem !important;
       height: auto !important;
     }
+.video{
+  display: none;
+}
   }
 
   
