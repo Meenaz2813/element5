@@ -1,0 +1,477 @@
+.c1 {
+    animation-duration: 2s;
+    animation-delay: 0s;
+   
+  
+  }
+
+  .footer {
+    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#343A40;
+    color: white;
+    text-align: center;
+ }
+
+  .c2{
+    position:absolute;
+     top:0px;
+    padding-left: 475px;
+
+  }
+
+  .c3{
+    position:absolute;
+     top:500px;
+     right:150px;
+     transform: translate(-50% , -50%);
+     -ms-transform: translate(-50%,-50%);
+     background-color:#4CAF50;
+     color: black;
+     font-size: 16px;
+     padding: 16px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+      animation-duration: 2s;
+    animation-delay: 0s;
+  }
+  .c3:hover {
+    background-color: black;
+    color: white;
+  }
+    
+  .c4{
+    position:absolute;
+     top:500px;
+     right:375px;
+     transform: translate(-50% , -50%);
+     -ms-transform: translate(-50%,-50%);
+     background-color:#4CAF50;
+     color: black;
+     font-size: 16px;
+     padding: 16px 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+      animation-duration: 3s;
+    animation-delay: 0s;
+  }
+
+  .c4:hover {
+    background-color: black;
+    color: white;
+  }
+
+    
+.title{
+  font-size: 30px;
+  float: left;
+}
+
+.l1{
+  padding-top:150px;
+}
+
+.title{
+  font-family: Palatino Linotype;
+  
+}
+.l2{
+  padding-top:70px;
+  padding-right: 20px;
+}
+
+.l3{
+  padding-top: 0%;
+}
+
+.m1{
+  position:absolute;
+  top:3450px;
+  right:725px;
+  opacity:0.7;
+  
+}
+
+.r1{
+  padding-top: 100px;
+}
+
+.m2{
+  position:absolute;
+  top:3875px;
+  right:725px;
+  opacity:0.7;
+  
+}
+
+.m3{
+  position:absolute;
+  top:3500px;
+  right:175px;
+  opacity:0.7;
+  
+}
+
+.b1{
+  padding: 50px;
+}
+
+.i1{
+  padding-right: 25px;
+}
+
+.m4{
+  position:absolute;
+  top:4800px;
+  right:750px;
+  opacity:0.7;
+  
+}
+
+.m5{
+  
+    position:absolute;
+    top:4800px;
+    /* right:350px; */
+    left: 900px;
+    opacity:0.7;
+  }
+
+  .p1{
+    padding-top: 90px;
+    padding-bottom: 150px;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #343C4F;
+    position: absolute ;
+    left: 650px;
+    top: 450px;
+    z-index:6
+  }
+  
+  .button:hover {background-color: #28A745}
+  
+  .button:active {
+    background-color: #28A745;
+    box-shadow: 0 2px #343C4F;
+    transform: translateY(4px);
+  }
+
+
+  /* Container needed to position the overlay. Adjust the width as needed */
+
+  
+  /* Make the image to responsive */
+ .con{
+  position: relative;
+  width:auto !important;
+
+}
+ .e {
+   display: flex;
+   width:200%;
+   height:720px;
+   background-size: size;
+   
+ }
+ 
+ 
+ /* The overlay effect - lays on top of the container and over the image */
+ .ove {
+   position: absolute; 
+   bottom: 200px; 
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.5); /* Black see-through */
+   color: #f1f1f1; 
+   width: 900px;
+   transition: .5s ease;
+   opacity:0;
+   color: white;
+   font-size: 40px;
+   padding: 200px;
+
+   text-align: center;
+ }
+
+.rn{
+
+
+       box-sizing: border-box;
+}
+     
+
+
+
+ 
+ /* When you mouse over the container, fade in the overlay title */
+ /* .con:hover .ove {
+   opacity: 1;
+ } */
+
+
+
+ 
+ .rn:hover {
+   -ms-transform: scale(1.1); /* IE 9 */
+   -webkit-transform: scale(1.1); /* Safari 3-8 */
+   transform: scale(1.1); 
+ }
+ .tx
+ {
+     color:navy
+ }
+.border{
+ border: 10px black;
+}
+
+
+
+
+
+
+
+.overlay {
+ position: absolute; 
+ bottom: 0; 
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5); /* Black see-through */
+ color: #f1f1f1; 
+ width: 95%;
+ transition: .5s ease;
+ opacity:0;
+ color: white;
+ font-size: 20px;
+ padding: 20px;
+
+}
+
+.r:hover .overlay {
+ opacity: 1;
+}
+
+
+
+.y {
+ position: absolute; 
+ bottom: 0.5%; 
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5); /* Black see-through */
+ color: #f1f1f1; 
+ width: 97%;
+ transition: .5s ease;
+ opacity:0;
+ color: white;
+ font-size: 20px;
+ padding: 20px;
+
+}
+
+.n:hover .y {
+ opacity: 1;
+}
+
+.o {
+ position: absolute; 
+ bottom: 0.1%; 
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5); /* Black see-through */
+ color: #f1f1f1; 
+ width: 118%;
+ transition: .5s ease;
+ opacity:0;
+ color: white;
+ font-size: 20px;
+ padding: 20px;
+
+}
+
+.c:hover .o {
+ opacity: 1;
+}
+
+
+
+.zoom:hover {
+ -ms-transform: scale(1.02); /* IE 9 */
+ -webkit-transform: scale(1.02); /* Safari 3-8 */
+ transform: scale(1.02); 
+}
+
+
+.mm1{
+  position:absolute;
+  top:350px;
+ 
+  opacity:0.8;
+  animation-duration: 3s;
+    animation-delay: 0s;
+    padding-top: 20px;
+    z-index: 5;
+  
+}
+
+.pointer
+{
+  cursor: pointer;
+}
+
+.image-responsive{
+  height: auto !important;
+  max-width:100% !important;
+}
+.img-opacity{
+  height: 100% !important;
+  width: 100% !important;
+  z-index:5 !important;
+  position: absolute;
+  opacity:0.25;
+  background-color: black;
+  
+}
+
+@media only screen and (max-width:600px){
+  .image-responsive{
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .footer {
+    display:block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#343A40;
+    color: white;
+    text-align: center;
+ }
+  
+  .c1 {
+    animation-duration: 3s;
+    animation-delay: 0s;
+   
+  
+  }
+  .image-res {
+    animation-duration: 3s;
+    animation-delay: 0s;
+   
+  
+  }
+
+  .c2{
+    position:absolute;
+     top:0px;
+    padding-left: 105px;
+
+  }
+  .mm1{
+    position:absolute;
+    top:350px;
+   
+    opacity:0.5;
+    animation-duration: 3s;
+      animation-delay: 0s;
+      padding-top: 20px;
+
+    
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+    position: absolute ;
+    left: 300px;
+    top: 450px
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+  .m1{
+    position:absolute;
+    top:3500px;
+    right:345px;
+    opacity:0.7;
+    
+  }
+  
+  .r1{
+    padding-top: 100px;
+  }
+  
+  .m2{
+    position:absolute;
+    top:3900px;
+    right:340px;
+    opacity:0.7;
+    
+  }
+  
+  .m3{
+    position:absolute;
+    top:3500px;
+    right:5px;
+    opacity:0.7;
+    
+  }
+
+  .i1{
+    padding-right: 25px;
+  }
+  
+  .m4{
+    position:absolute;
+      top:4700px;
+      /* right:750px; */
+      left: 10px;
+      opacity:0.7;
+    
+  }
+  
+  .m5{
+    
+      position:absolute;
+      top:4700px;
+      left:500px;
+      
+      opacity:0.7;
+    }
+   
+    
+    }
+    
+
